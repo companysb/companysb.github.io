@@ -1,0 +1,168 @@
+
+html {
+
+	 background: url('../pic/bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 2;
+  text-align: center;
+}
+
+.dotOver{
+background: url('../pic/raster.png');
+position: absolute;
+z-index: 1;
+height: 100%;
+width: 100%;
+right: .05%;
+top: .05%;
+}
+
+html,body {
+	overflow-y:hidden
+}
+
+.textBack{
+  background-color: rgba(0,0,0,0.5);
+  width: 95%;
+  position: absolute;
+  z-index: 6;
+  border-radius: 6px;
+  left: 3%;
+top: 50%;
+padding-bottom:8px;
+}
+
+.profisb {
+float: right;
+padding: 0.5% 2%;
+width: 30%;
+text-align: center;
+
+/*border: 4px solid black;*/
+}
+
+.chop {
+float: left;
+padding: 0.5% 2%;
+width: 30%;
+text-align: center;
+
+/*border: 4px solid black;*/
+}
+
+
+
+
+
+/*
+FONTS*/
+
+
+
+
+h1 {
+  color: white;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 800;
+  font-size: 4em;
+  margin-top: 4%;
+  z-index: 10;
+  text-shadow:4px 4px 0.3em black;
+}
+
+h2 {
+
+	color: white;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 800;
+  font-size: 2.5em;
+	margin-bottom: 0;
+}
+
+h3 {
+ color: white;
+ margin: 0;
+ padding:0;
+ font-family: "futura-pt", sans-serif;
+ font-weight: 400;
+ font-size:1.5em; 
+}
+
+p{
+float: right;
+  color:#333f4f;
+  margin-top: 2px;
+  font-size: 1.3em;
+  margin-bottom: 3px;
+  }
+
+
+.beforeAfter {
+position: absolute;
+left: 50%;
+margin-left: -241px;
+top: 30%;
+z-index: 7;
+}
+
+@import "compass/css3";
+
+.before_after_slider { 
+	position: relative; 
+	margin: 0px; 
+	width: 400px; 
+	height: 460px; 
+} 
+
+.before_after_slider > div { 
+	position: absolute; 
+}
+
+.black_white {
+  overflow: hidden;
+}
+
+
+
+.button{
+  display: inline-block;
+  font-size: 2em;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 3%;
+  border-radius: 6px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+
+.button:hover{
+
+  background: #CCCCCC;
+  
+}
+
+.icons{
+float: left;
+height: 50px;
+margin-right: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*HACKS*/
+
+.clearfix:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+
