@@ -103,7 +103,7 @@ float: right;
 .beforeAfter {
 position: absolute;
 left: 50%;
-margin-left: -241px;
+margin-left: -211px;
 top: 40%;
 z-index: 7;
 }
